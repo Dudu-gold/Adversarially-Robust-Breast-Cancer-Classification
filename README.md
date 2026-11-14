@@ -2,18 +2,25 @@
 
 ResNet-50 with PGD Adversarial Training for benign vs. malignant classification of breast histopathology images (BreakHis, 400x magnification), with a Streamlit web app and Grad-CAM explanations.
 
+
+
 ## Project Structure
 
+```text
 breast_cancer_project/
-├── breast_cancer_colab.py 
-├── notebook.ipynb             # Training and evaluation code (Google Colab / Kaggle)
-├── requirements.txt           # Required libraries
-├── models/                    # Saved weights (baseline_resnet50.pth, robust_resnet50.pth)
+├── breast_cancer_colab.py
+├── notebook.ipynb
+├── requirements.txt
+├── models/
+│   ├── baseline_resnet50.pth
+│   └── robust_resnet50.pth
 ├── data/
-│   ├── raw/                   # Place the BreakHis 400X images here
+│   ├── raw/
 │   └── processed/
 └── streamlit_app/
-    └── app.py                 # Streamlit web application
+    └── app.py
+```
+
 
 ## Dataset
 

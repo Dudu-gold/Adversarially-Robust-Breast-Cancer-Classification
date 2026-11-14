@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data (BreakHis is large, link to it in the README instead)
+data/raw/
+data/processed/
+*.zip
+*.png
+*.jpg
+*.jpeg
+!docs/**
+
+# Model weights (see note below)
+*.pth
+*.pt
+
+# Secrets and credentials
+kaggle.json
+.env
+.streamlit/secrets.toml
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

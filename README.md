@@ -5,7 +5,8 @@ ResNet-50 with PGD Adversarial Training for benign vs. malignant classification 
 ## Project Structure
 
 breast_cancer_project/
-├── breast_cancer_colab.py     # Training and evaluation code (Google Colab / Kaggle)
+├── breast_cancer_colab.py 
+├── notebook.ipynb             # Training and evaluation code (Google Colab / Kaggle)
 ├── requirements.txt           # Required libraries
 ├── models/                    # Saved weights (baseline_resnet50.pth, robust_resnet50.pth)
 ├── data/

@@ -1,9 +1,4 @@
-# ============================================================
-# STREAMLIT WEB APPLICATION
-# Adversarially Robust Breast Cancer Classification
-# File: streamlit_app/app.py
-# Run: streamlit run app.py
-# ============================================================
+
 
 import streamlit as st
 import torch
@@ -244,10 +239,4 @@ with col2:
 
     else:
         st.info("👆 Please upload a histopathological image to begin classification.")
-        st.markdown("""
-**How to use:**
-1. Upload a breast tissue histopathological image (PNG or JPEG)
-2. The system will classify it as Benign or Malignant
-3. A Grad-CAM heatmap will show which image regions influenced the prediction
-4. Confidence scores will be displayed for both classes
-        """)
+    
